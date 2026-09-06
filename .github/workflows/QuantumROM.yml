@@ -6,22 +6,22 @@ on:
       STOCK_DEVICE:
         description: "Your own device model or None"
         required: true
-        default: "SM-A225F"
+        default: "SM-M236B"
 
       USE_UI_8_TETHERING_APEX:
         description: "Set True if your kernel BPF version is 5.4 (lower than 5.10)."
         required: true
-        default: "False"
+        default: "True"
 
       TARGET_DEVICE:
         description: "TARGET_DEVICE_MODEL."
         required: true
-        default: "SM-A346E"
+        default: "SM-S711N"
 
       TARGET_DEVICE_CSC_OR_DOWNLOAD_LINK:
         description: "Input target device CSC code or direct download link."
         required: true
-        default: "BKD"
+        default: "KOO"
 
       TARGET_FW_VERSION:
         description: "Specific Samsung firmware version (PDA/CSC/MODEM) OR (AP/CSC/CP)"
@@ -40,12 +40,12 @@ on:
       DEBLOAT_ROM:
         description: "Debloat downloaded rom (True/False)"
         required: true
-        default: "True"
+        default: "False"
 
       ADD_CHINA_SMART_MANAGER:
         description: "Add china smart manager (True/False)"
         required: true
-        default: "True"
+        default: "False"
 
       ADD_SAMSUNG_FLAGSHIP_APPS:
         description: "Add samsung flagship apps (True/False)"
@@ -60,7 +60,7 @@ on:
       PATCH_FLAG_SECURE:
         description: "Bypass screenshot and screen record detection (True/False)"
         required: true
-        default: "True"
+        default: "False"
 
       PATCH_SECURE_FOLDER:
         description: "Patch samsung secure folder (True/False)"
