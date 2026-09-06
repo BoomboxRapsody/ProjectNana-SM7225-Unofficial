@@ -6,7 +6,7 @@ on:
       STOCK_DEVICE:
         description: "Your own device model or None"
         required: true
-        default: "SM-M236B"
+        default: "SM-M236L"
 
       USE_UI_8_TETHERING_APEX:
         description: "Set True if your kernel BPF version is 5.4 (lower than 5.10)."
