@@ -1,8 +1,10 @@
 ![QuantumROM Logo](QuantumROM/logo/QuantumROM.jpg)
 
-## 📌 Overview.
-This Custom ROM is built by combining and refining features from multiple projects, including UNICA, Legacy-UI, and AstroRom.
-- The goal of this ROM is to provide a clean, optimized, and stable One UI experience with enhanced usability and performance.
+# What is ProjectNana-SM7225-Unofficial (Project Nana Unofficial made by BoomboxRapsody)?
+- ProjectNana-SM7225-Unofficial, also called as Project Nana Unofficial "was" made by BoomboxRapsody, this unofficial build by me that brings Project Nana to SM7225 devices, with purpose that bring higher One UI version like 8.0, 8.5, etc... to old phone and unlock HighEnd/flagship feature for the SM7225 family, based on QuantumROM tools and some features based on many projects such as UN1CA, Legacy-UI, and AstroROM.
+- Credit and thanks to SN-Abdullah Al Noman for letting me fork this repository, editing some files/stuffs inside this repository in order to be reasonable with this unofficial build by me, and letting me do this unofficial build for the SM7225 for free.
+
+- Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 ### 🛠️ Tools features.
 - Download firmware directly from samsung server.

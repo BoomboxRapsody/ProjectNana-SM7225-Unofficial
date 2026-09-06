@@ -26,7 +26,7 @@ source "$(pwd)/scripts/debloat.sh"
 source "$(pwd)/scripts/git_utils.sh"
 source "$(pwd)/scripts/QuantumRom.sh"
 
-REPO="BoomboxRapsody/ProjectNana-m23xq-Unofficial"
+REPO="BoomboxRapsody/ProjectNana-SM7225-Unofficial"
 BRANCH="Devices"
 
 if [ "$STOCK_DEVICE" != "None" ]; then
@@ -37,7 +37,7 @@ if [ "$STOCK_DEVICE" != "None" ]; then
     fi
 
 	echo "✅ Device supported: $STOCK_DEVICE"
-    GIT_SPARSE_DOWNLOAD "BoomboxRapsody/ProjectNana-m23xq-Unofficial" "Devices" "$STOCK_DEVICE" \
+    GIT_SPARSE_DOWNLOAD "BoomboxRapsody/ProjectNana-SM7225-Unofficial" "Devices" "$STOCK_DEVICE" \
         "$(pwd)/QuantumROM/Devices/$STOCK_DEVICE"
 else
     echo "ℹ️ STOCK_DEVICE is set to None."
